@@ -14,7 +14,16 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+	 position: center;
 }
+
+
+project{
+	position: center;
+	
+	
+}
+
 
 .jumbotron {
 	position: relative;
