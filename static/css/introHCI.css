@@ -11,16 +11,28 @@
 
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
+
+header { 
+  background-color: black;
+  padding: 50px;
+  text-align: left;
+  font: sans-serif;
+  font-size: 25px;
+  color: white;
+  height: 455px;
+}
+
 body {
      border: 1px dotted gray;
      padding: 20px;
-	 
+     background-image: url("background.gif")
+     color: white;	 
 	 
 }
 
 .jumbotron {
 	position: relative;
-	background: none;
+	background: none;0
 }
 
 .jumbotron:after {
@@ -33,4 +45,39 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+nav {
+  float: center;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+.icon{
+     position: center;
+     border-image-width: 10px;
 }
