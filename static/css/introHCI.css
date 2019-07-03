@@ -52,10 +52,13 @@ body {
 nav {
 
   float: left;
-  width: 30%;
+  width: 10%;
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  font-size: 12px;
+}
+
 
 nav ul {
   list-style-type: none;
@@ -65,24 +68,22 @@ nav ul {
 
 
 article {
-  float: left;
+  float: right;
   padding: 20px;
-  width: 70%;
+  width: 75%;
   background-color: #f1f1f1;
   height: 300px; 
 }
 
 
 .icon{
-     position: center;
+     position}: center;
      border-image-width: 100px;
      background-color: #21211f;
 }
 
 footer {
   background-color: black;
-  padding: 10px;
   text-align: center;
   color: white;
-  float: buttom;
-}
+ }

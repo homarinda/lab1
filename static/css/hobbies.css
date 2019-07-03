@@ -28,9 +28,8 @@ a:active {
 }
 
 body {
-     border: 1px dotted gray;
-     padding-left: 30%;
-     padding-right: 30%;
-     padding-top: 5%;
-     color: #22201e;	
-
+    border: 1px dotted gray;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 3%;
+    color: #22201e;	
