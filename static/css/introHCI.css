@@ -22,38 +22,40 @@ header {
   height: 455px;
 }
 
+
+#name {
+     font-family: Brush Script MT;
+     font-size: 90px;
+     color: #b5ac8b;
+     letter-spacing: 3px;
+}
+
+
+#course {
+     font-family: monospace;
+     color: #898881;
+     font-size: 20px;
+}
+
+
 body {
      border: 1px dotted gray;
      padding: 20px;
-     background-image: url("background.gif")
-     color: white;	 
-	 
-}
+     padding-left: 10%;
+     padding-right: 10%;
+     color: #22201e;	 
+	 }
 
-.jumbotron {
-	position: relative;
-	background: none;0
-}
 
-.jumbotron:after {
-     content:"";
-     background: url("http://lorempixel.com/1140/283");
-     opacity: 0.2;
-     top: 0;
-     left: 0;
-     bottom: 0;
-     right: 0;
-     position: absolute;
-     z-index: -1;
-}
+
 
 nav {
-  float: center;
+
+  float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
-}
 
 nav ul {
   list-style-type: none;
@@ -67,7 +69,14 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 300px; 
+}
+
+
+.icon{
+     position: center;
+     border-image-width: 100px;
+     background-color: #21211f;
 }
 
 footer {
@@ -75,9 +84,5 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-}
-
-.icon{
-     position: center;
-     border-image-width: 10px;
+  float: buttom;
 }
