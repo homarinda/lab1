@@ -32,22 +32,11 @@ body {
     padding-left: 30%;
     padding-right: 30%;
     padding-top: 3%;
-    color: #22201e;	
+    color: #22201e; 
 
 
-.Employer{
-  padding-top: 5%;
-  text-align: "center";
-}
-
-
-table{
-  width: 100%;
-  align: center;
-
-}
-
-td{
-  align: "center";
-
-}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+ }
