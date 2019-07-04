@@ -25,11 +25,10 @@ header {
 
 #name {
      font-family: Brush Script MT;
-     font-size: 90px;
+     font-size: 70px;
      color: #b5ac8b;
      letter-spacing: 3px;
 }
-
 
 #course {
      font-family: monospace;
@@ -41,8 +40,8 @@ header {
 body {
      border: 1px dotted gray;
      padding: 20px;
-     padding-left: 10%;
-     padding-right: 10%;
+     padding-left: 20%;
+     padding-right: 20%;
      color: #22201e;	 
 	 }
 
@@ -52,9 +51,9 @@ body {
 nav {
 
   float: left;
-  width: 10%;
+  width: 20%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
+  background: #22201e;
   padding: 20px;
   font-size: 12px;
 }
@@ -63,6 +62,11 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+
+
 }
 
 
@@ -70,20 +74,61 @@ nav ul {
 article {
   float: right;
   padding: 20px;
-  width: 75%;
-  background-color: #f1f1f1;
+  width: 73%;
+  background-color: #4d4d4a;
   height: 300px; 
 }
 
 
 .icon{
-     position}: center;
+     position: 
      border-image-width: 100px;
-     background-color: #21211f;
+     background-color: ;
+
+
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 footer {
   background-color: black;
+  padding: 10px;
   text-align: center;
   color: white;
- }
+}
+
+
+ @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+a:link{
+     text-decoration: none;
+     color: #898881;
+     display: block;
+}
+
+a:visited {
+     text-decoration: none;
+     color: #898881;
+}
+
+li a:hover {
+     text-decoration: capitalize;
+     color: black;
+     background-color: #b5ac8b;
+
+}
+
+a:active {
+     text-decoration: none;
+     color: #898881;
+}
