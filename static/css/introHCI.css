@@ -25,11 +25,8 @@ header {
 
 #name {
      font-family: Brush Script MT;
-<<<<<<< HEAD
-     font-size: 30px;
-=======
-     font-size: 60px;
->>>>>>> 07437d589ec10fb273225efa4bf7dd833aab53c0
+     font-size: 40px;
+
      color: #b5ac8b;
      letter-spacing: 3px;
 }
@@ -47,6 +44,7 @@ body {
      padding-left: 20%;
      padding-right: 20%;
      color: #22201e;	 
+	 font-size: 12px;
 	 }
 
 
