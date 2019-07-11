@@ -19,13 +19,13 @@ header {
   font: sans-serif;
   font-size: 25px;
   color: white;
-  height: 455px;
+  height: 260px;
 }
 
 
 #name {
      font-family: Brush Script MT;
-     font-size: 70px;
+     font-size: 30px;
      color: #b5ac8b;
      letter-spacing: 3px;
 }
@@ -33,7 +33,7 @@ header {
 #course {
      font-family: monospace;
      color: #898881;
-     font-size: 20px;
+     font-size: 12px;
 }
 
 
@@ -74,7 +74,7 @@ nav ul {
 article {
   float: right;
   padding: 20px;
-  width: 73%;
+  width: 68%;
   background-color: #4d4d4a;
   height: 300px; 
 }
@@ -83,7 +83,7 @@ article {
 .icon{
      position: 
      border-image-width: 100px;
-     background-color: ;
+     background-color:;
 
 
 }
@@ -113,7 +113,7 @@ footer {
 a:link{
      text-decoration: none;
      color: #898881;
-     display: block;
+   
 }
 
 a:visited {
