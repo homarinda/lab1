@@ -57,10 +57,11 @@
 @import url("219-fix2.css") all and (min-width: 1367px);
 @import url("219-bg.css") all and (min-width: 400px);
 
+
 .icon{
      float: below;
      border-image-width: 100px;
      background-color:;
-	margin-top: 5px;
+	margin-bottom: : 10px;
 
 }
