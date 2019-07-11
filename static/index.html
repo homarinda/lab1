@@ -1,91 +1,192 @@
-<!doctype html>
-
-<html>
-<link href= "css/introHCI.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Home</title>
 	<meta charset="utf-8">
+	<title>My Personal Website</title>
+
+	<link rel="stylesheet" media="screen" href="css/219/219.css">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.csszengarden.com/zengarden.xml">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<header>
-
-
-
-<table>
-
-<tr>
-<td><img src="images/myphotoBlk.jpg" style="width:200px;height:300px;"><td>	
+	<meta name="author" content="Dave Shea">
+	<meta name="description" content="A demonstration of what can be accomplished visually through CSS-based design.">
+	<meta name="robots" content="all">
 
 
-<td>
-<h1 id="name">Hamill Oliquiano Marinda</h1>
-<hr width="80%">
-<p id="course" align="center">
-Bachelor of Science in Computer Engineering <br>
-School of Engineering <br>
-Asia Pacific College
-</p>
-<td>			
-</tr></table>
+	<!--[if lt IE 9]>
+	<script src="script/html5shiv.js"></script>
+	<![endif]-->
+</head>
 
-</header>	
+<!--
 
 
 
-<body>	
+	View source is a feature, not a bug. Thanks for your curiosity and
+	interest in participating!
+
+	Here are the submission guidelines for the new and improved csszengarden.com:
+
+	- CSS3? Of course! Prefix for ALL browsers where necessary.
+	- go responsive; test your layout at multiple screen sizes.
+	- your browser testing baseline: IE9+, recent Chrome/Firefox/Safari, and iOS/Android
+	- Graceful degradation is acceptable, and in fact highly encouraged.
+	- use classes for styling. Don't use ids.
+	- web fonts are cool, just make sure you have a license to share the files. Hosted 
+	  services that are applied via the CSS file (ie. Google Fonts) will work fine, but
+	  most that require custom HTML won't. TypeKit is supported, see the readme on this
+	  page for usage instructions: https://github.com/mezzoblue/csszengarden.com/
+
+	And a few tips on building your CSS file:
+
+	- use :first-child, :last-child and :nth-child to get at non-classed elements
+	- use ::before and ::after to create pseudo-elements for extra styling
+	- use multiple background images to apply as many as you need to any element
+	- use the Kellum Method for image replacement, if still needed. http://goo.gl/GXxdI
+	- don't rely on the extra divs at the bottom. Use ::before and ::after instead.
+
+-->
+
+<body id="css-zen-garden">
+<div class="page-wrapper">
+
+	<section class="intro" id="zen-intro">
+		<header role="banner">
+
+			<h1><img src="images/myphotoBlk.jpg" style="width:250px;height:400px; float:center">Hamill</h1>
+			<h2>Marinda</h2>
 
 
-<section>
-
-	<nav>
-		<ul>
-			<li><a href="resume.html">  Resume </a> <li>
- 			<li><a href="hobbies.html">  Hobbies </a><li>
- 			<li><a href="organization.html">  Organization </a>	<li>
-		</ul>
- 	
-	</nav>
-
-
-
-	<article>
-		Tips to write an inspiring “About Me Page”
-
-	Before creating an About Me, you should know exactly what is the purpose of this page and where are you writing it. Following are a few tips to help you in making “About Me Page” for your blog/website which will look more impressive and attractive.
-
-	Remember people want to know who you are, so be original, honest and open about yourself. Readers love it when you reveal the negativity in your personality along with positivity.
-	You can also tell some inspiring story from your life experiences. A story may possess more power to hold a reader’s attention than general information.
-	Don’t create very long About Me pages. The readers avoid the pages that hold long and detailed content. So the moment it starts to get boring and uninteresting, write the ending lines.
-	An inspiring About Me page should not only look good but also it should serve the purpose of its creation.
-	Be considerate about the colors and styles you use. Quick leaps from bold colors to soft ones or different styles can leave a poor impression on the reader.
-	Put some impressive academic or experimental stuff. To create an inspiring About Me page, you need to show your genius side to the readers.
-	Make sure that you use clear words in your sentences. If your page holds any confusion or ambiguity, the readers might prefer leaving it.
-	Use your favorite quote or saying and tell the readers how it inspired you. It is a great way to communicate and make a connection with readers.
-	Save a little space for “About You”. Tell the readers what you expect and what you wish to do with their help.
-	Make sure that the theme, color combination, and design of your page is getting along with your written information.
-
-
-	</article>	
-</section>
 		
+		</header>
 
-<footer>
-  <quote>“Life is what happens when you're busy making other plans.”</quote>
-</footer>
+		<div class="summary" id="zen-summary" role="article">
+			
+			<p> “Not everything that counts can be counted, and not everything that’s counted truly counts.”</p>
+			<p>- Einstein</p>
+
+			<img src="images/mypic1.jpg" style="width:130px;height:200px; float:right; padding-right: 40px;">
+		</div>
+
+
+		<div class="preamble" id="zen-preamble" role="article">
+			<h3>The Road to Enlightenment</h3>
+			<p>Littering a dark and dreary road lay the past relics of browser-specific tags, incompatible <abbr title="Document Object Model">DOM</abbr>s, broken <abbr title="Cascading Style Sheets">CSS</abbr> support, and abandoned browsers.</p>
+
+			
+			<img src="images/mypic2.jpg" style="width:130px;height:200px; float:left; padding-left: 40px;">
+		</div>
+	</section>
+
+
+
+
+	<div class="main supporting" id="zen-supporting" role="main">
+
+		<div class="explanation" id="zen-explanation" role="article">
+			<h3>So What is This About?</h3>
+			<p>There is a continuing need to show the power of <abbr title="Cascading Style Sheets">CSS</abbr>. The Zen Garden aims to excite, inspire, and encourage participation. To begin, view some of the existing designs in the list. Clicking on any one will load the style sheet into this very page. The <abbr title="HyperText Markup Language">HTML</abbr> remains the same, the only thing that has changed is the external <abbr title="Cascading Style Sheets">CSS</abbr> file. Yes, really.</p>
+			<p><abbr title="Cascading Style Sheets">CSS</abbr> allows complete and total control over the style of a hypertext document. The only way this can be illustrated in a way that gets people excited is by demonstrating what it can truly be, once the reins are placed in the hands of those able to create beauty from structure. Designers and coders alike have contributed to the beauty of the web; we can always push it further.</p>
+		</div>
+
+
+		<div class="participation" id="zen-participation" role="article">
+			<h3>Participation</h3>
+			<p>Strong visual design has always been our focus. You are modifying this page, so strong <abbr title="Cascading Style Sheets">CSS</abbr> skills are necessary too, but the example files are commented well enough that even <abbr title="Cascading Style Sheets">CSS</abbr> novices can use them as starting points. Please see the <a href="http://www.mezzoblue.com/zengarden/resources/" title="A listing of CSS-related resources"><abbr title="Cascading Style Sheets">CSS</abbr> Resource Guide</a> for advanced tutorials and tips on working with <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+			<p>You may modify the style sheet in any way you wish, but not the <abbr title="HyperText Markup Language">HTML</abbr>. This may seem daunting at first if you&#8217;ve never worked this way before, but follow the listed links to learn more, and use the sample files as a guide.</p>
+			<p>Download the sample <a href="/examples/index" title="This page's source HTML code, not to be modified.">HTML</a> and <a href="/examples/style.css" title="This page's sample CSS, the file you may modify.">CSS</a> to work on a copy locally. Once you have completed your masterpiece (and please, don&#8217;t submit half-finished work) upload your <abbr title="Cascading Style Sheets">CSS</abbr> file to a web server under your control. <a href="http://www.mezzoblue.com/zengarden/submit/" title="Use the contact form to send us your CSS file">Send us a link</a> to an archive of that file and all associated assets, and if we choose to use it we will download it and place it on our server.</p>
+		</div>
+
+
+
+		<div class="benefits" id="zen-benefits" role="article">
+			<h3>Benefits</h3>
+			<p>Why participate? For recognition, inspiration, and a resource we can all refer to showing people how amazing <abbr title="Cascading Style Sheets">CSS</abbr> really can be. This site serves as equal parts inspiration for those working on the web today, learning tool for those who will be tomorrow, and gallery of future techniques we can all look forward to.</p>
+		</div>
+
+
+		<div class="requirements" id="zen-requirements" role="article">
+			<h3>Requirements</h3>
+			<p>Where possible, we would like to see mostly <abbr title="Cascading Style Sheets, levels 1 and 2">CSS 1 &amp; 2</abbr> usage. <abbr title="Cascading Style Sheets, levels 3 and 4">CSS 3 &amp; 4</abbr> should be limited to widely-supported elements only, or strong fallbacks should be provided. The CSS Zen Garden is about functional, practical <abbr title="Cascading Style Sheets">CSS</abbr> and not the latest bleeding-edge tricks viewable by 2% of the browsing public. The only real requirement we have is that your <abbr title="Cascading Style Sheets">CSS</abbr> validates.</p>
+			<p>Luckily, designing this way shows how well various browsers have implemented <abbr title="Cascading Style Sheets">CSS</abbr> by now. When sticking to the guidelines you should see fairly consistent results across most modern browsers. Due to the sheer number of user agents on the web these days &#8212; especially when you factor in mobile &#8212; pixel-perfect layouts may not be possible across every platform. That&#8217;s okay, but do test in as many as you can. Your design should work in at least IE9+ and the latest Chrome, Firefox, iOS and Android browsers (run by over 90% of the population).</p>
+			<p>We ask that you submit original artwork. Please respect copyright laws. Please keep objectionable material to a minimum, and try to incorporate unique and interesting visual themes to your work. We&#8217;re well past the point of needing another garden-related design.</p>
+			<p>This is a learning exercise as well as a demonstration. You retain full copyright on your graphics (with limited exceptions, see <a href="http://www.mezzoblue.com/zengarden/submit/guidelines/">submission guidelines</a>), but we ask you release your <abbr title="Cascading Style Sheets">CSS</abbr> under a Creative Commons license identical to the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" title="View the Zen Garden's license information.">one on this site</a> so that others may learn from your work.</p>
+			<p role="contentinfo">By <a href="http://www.mezzoblue.com/">Dave Shea</a>. Bandwidth graciously donated by <a href="http://www.mediatemple.net/">mediatemple</a>. Now available: <a href="http://www.amazon.com/exec/obidos/ASIN/0321303474/mezzoblue-20/">Zen Garden, the book</a>.</p>
+		</div>
+
+
+
+
+	</div>
+
+
+	<aside class="sidebar" role="complementary">
+		<div class="wrapper">
+
+			<div class="design-selection" id="design-selection">
+				<h3 class="select">About Me</h3>
+				<nav role="navigation">
+					<ul>
+					<li>
+						<a href="/221/" class="design-name">Would you like to know more about me?</a> 						<a href="resume.html" class="designer-name">View my RESUME</a>
+					</li>					<li>
+						<a href="/220/" class="design-name">Check out what stuff I </a> do						<a href="hobbies.html" class="designer-name">View my HOBBIES</a>
+					</li>					<li>
+						<a href="/219/" class="design-name">Groups that I belong </a> to						<a href="organization.html" class="designer-name">View my ORGANIZATIONS</a>
+					</li>					<li>
+						<a href="/218/" class="design-name">Apothecary</a> by						<a href="http://trentwalton.com" class="designer-name">Trent Walton</a>
+					</li>					<li>
+						<a href="/217/" class="design-name">Screen Filler</a> by						<a href="http://elliotjaystocks.com/" class="designer-name">Elliot Jay Stocks</a>
+					</li>					<li>
+						<a href="/216/" class="design-name">Fountain Kiss</a> by						<a href="http://jeremycarlson.com" class="designer-name">Jeremy Carlson</a>
+					</li>					<li>
+						<a href="/215/" class="design-name">A Robot Named Jimmy</a> by						<a href="http://meltmedia.com/" class="designer-name">meltmedia</a>
+					</li>					<li>
+						<a href="/214/" class="design-name">Photos taken</a> by						<a href="https://www.instagram.com/daaaaaaaabs/" class="designer-name">Ian Christopher Marinda</a>
+					</li>					</ul>
+				</nav>
+			</div>
+
+
+
+			
+
+
+
+
+		</div>
+	</aside>
+
+
+</div>
+
+<!--
+
+	These superfluous divs/spans were originally provided as catch-alls to add extra imagery.
+	These days we have full ::before and ::after support, favour using those instead.
+	These only remain for historical design compatibility. They might go away one day.
+		
+-->
+<div class="extra1" role="presentation"></div><div class="extra2" role="presentation"></div><div class="extra3" role="presentation"></div>
+<div class="extra4" role="presentation"></div><div class="extra5" role="presentation"></div><div class="extra6" role="presentation"></div>
+
+
+
 
 
 </body>
 
 <div class="icon" align="center">
-<hr width="100%">
+
 		<a href="https://www.facebook.com/HamillMarinda">
-			<img src="icons/fb.png" style="width:40px;height:40px;"></a>
+			<img src="icons/fb.png" style="width:50px;height:50px;"></a>
 		<a href="https://www.instagram.com/">
-			<img src="icons/ig.png" style="width:40px;height:40px;"></a>
+			<img src="icons/ig.png" style="width:50px;height:50px;"></a>
 		<a href="https://twitter.com/">
-			<img src="icons/twitter.png" style="width:40px;height:40px;"></a>
+			<img src="icons/twitter.png" style="width:50px;height:50px;"></a>
 		<a href="https://www.linkedin.com/learning/">
-			<img src="icons/in.png" style="width:40px;height:40px;"></a>
+			<img src="icons/in.png" style="width:50px;height:50px;"></a>
 		<br>
 	</div>
+
 </html>
