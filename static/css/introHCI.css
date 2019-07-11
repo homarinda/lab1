@@ -83,10 +83,10 @@ article {
 
 
 .icon{
-     position: 
+     float: below;
      border-image-width: 100px;
      background-color:;
-
+	margin-top: 5px;
 
 }
 
