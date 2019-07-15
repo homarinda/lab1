@@ -1,4 +1,6 @@
-
+html{
+	background-color: black;
+}
 
 
 .menu{
@@ -13,10 +15,13 @@
 
 a:link {
   text-decoration: none;
+  color: gray;
 }
 
 a:visited {
   text-decoration: none;
+  color: White;
+  text-decoration: bold ;
 }
 
 a:hover {
@@ -40,5 +45,6 @@ body {
      padding-left: 30%;
      padding-right: 30%;
      padding-top: 3%;
-     color: #22201e;	
+     color: #BEBEBE;	
+	
 
