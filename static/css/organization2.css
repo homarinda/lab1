@@ -1,13 +1,7 @@
-.address{
-  margin-left: 20px;
-}
-
 a:link {
   text-decoration: none;
   word-spacing: 1px;
   color: gray;
-  
-
 }
 
 a:visited {
@@ -18,7 +12,6 @@ a:visited {
 a:hover {
   background-color: white;
   color: black;
-
 }
 
 a:active {
@@ -32,14 +25,15 @@ body {
  padding-right: 30%;
  background-color: black;
  color:gray;
-
 }
 
 
+.prev_emp, .acad_org, .int_club{border-color: gray; border-width: 3px;}
 
 
 h1{
-  margin-left: 20px;
+  margin-left: px;
+  margin-top: 10%px;
 }
 
 h2{
@@ -47,7 +41,9 @@ h2{
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   text-transform: uppercase;
   text-align: left;
+  margin-top: 10%;
 }
+
 
 h4{
   margin-top: 30px;
@@ -55,9 +51,6 @@ h4{
 }
 
 
-header{
-
-}
 
 html{ 
   color: black;
@@ -69,15 +62,7 @@ hr{
 }
 
 
-
-.resume_photo img{
-  height: 200px;
-  width:  175px;
-}
-
-
 .menu{
-
   font-family: 'IBM Plex Sans Condensed', sans-serif;
   color:#2A2D34;
   font-size: 15px;
@@ -90,44 +75,21 @@ hr{
   margin-bottom:  10%;
 }
 
-nav{
-  letter-spacing: 1px;
-  word-spacing: 20px;
-  display: inline-block;
-  margin-top: 5%;
-}
-
-
-.resume_content{
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-li{ 
-  font-family: monospace;
-  text-indent: 10px;
-  margin-left: 30px;
-}
-
-strong{
-  font-size: 18px;
-  color: white;
-}
-
-
-pre{
-  font-size: 15px;
-}
-
-ul{
-  list-style: cjk-ideographic;
+.menu a{
+  word-spacing:  20px;
 }
 
 
 
+.upperboarder{
+  background: transparent url(footer.png) repeat-x;
+  background-position: top;
+  text-align: center;
+  height: 80px;
+}
 
 
-.icon{
+footer{
   height: 80px;
   margin-top: 5px;
   margin-bottom: 20px;
@@ -138,18 +100,33 @@ ul{
   background-position: bottom;
 }
 
-.icon img{
+footer img{
   width: 40px;
   height: 40px;  
 }
 
-.upperboarder{
-  background: transparent url(footer.png) repeat-x;
-  background-position: top;
+.preamble {
+  margin: 50px 0px 30px 30px;
+  width: 710px;
+  border: 7px solid gray;
+  border-color: rgba(42, 45, 52, 1);
+  background-color:white;
   text-align: center;
-  height: 80px;
-}
+  position: relative;
+  }
 
-.menu a{
-  word-spacing:  20px;
+
+  .preamble h3 {
+  width: 400px;
+  margin: 0px;
+  padding: 0px 0px 0px 34px;
+  background: url(to_h3back_04.gif) no-repeat left top;
+  line-height: 24px;
+  text-align: left;
+  position: absolute;
+  top: -24px;
+  z-index: 1;
+  left: -3px;
+  height: 23px;
+  font: 20px Arial, Helvetica, sans-serif;
 }

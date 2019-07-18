@@ -1,42 +1,86 @@
 
-
+h1, h2, h3{ color: #FFAE00; }
+body{background-color: black;}
 
 .menu{
     font-family: 'IBM Plex Sans Condensed', sans-serif;
     color:#2A2D34;
     font-size: 15px;
-    float: right;
-    text-transform: uppercase;
     letter-spacing: 2px;
-    padding-right: : 10%;
+    text-transform: uppercase;
+    word-spacing:  10px;
+    
+    padding-right: : 20%;
+    padding-top: 10px;
+    float: right;
 }
 
-a:link {
-  text-decoration: none;
-}
 
-a:visited {
-  text-decoration: none;
-}
 
-a:hover {
-  text-decoration: ;
-}
+hr{	width: 70%;}
 
-a:active {
-  text-decoration: underline;
-}
+
 
 body {
-    border: 1px dotted gray;
-    padding-left: 30%;
-    padding-right: 30%;
-    padding-top: 3%;
-    color: #22201e; 
+	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 20%;
+	padding-right: 20%
+	background-color:white;
+	font: 76% Arial, Helvetica, sans-serif;
+	text-align: center;
+}
 
 
-footer {
-  background-color: black;
+img{
+	height: 100px;
+	position: center;
+
+}
+
+
+.preamble {
+	margin: 10px 0px 30px 30px;
+	width: 710px;
+	border: 3px solid #000000;
+	border-color: rgba(42, 45, 52, 1);
+	background-color:white;
+	text-align: center;
+	position: relative;
+
+}
+.preamble p {
+
+	width: auto;
+	color: white;
+	font: bold 1.2em/1em "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 0.08em;
+	text-align: left;
+}
+
+.preamble h3 {
+	width: 400px;
+	margin: 0px;
+	padding: 0px 0px 0px 34px;
+	background: url(to_h3back_04.gif) no-repeat left top;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+	position: absolute;
+	top: -24px;
+	z-index: 1;
+	left: -3px;
+	height: 23px;
+}
+
+
+
+
+.upperboarder{
+  background: transparent url(footer.png) repeat-x;
+  background-position: top;
   text-align: center;
-  color: white;
- }
+  height: 80px;
+}
+
+footer img{width:50px;height:50px;}
